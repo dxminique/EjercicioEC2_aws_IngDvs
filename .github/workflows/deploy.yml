@@ -27,11 +27,10 @@ jobs:
             fi
 
             cd EjercicioEC2_aws_IngDvs
-
             git fetch origin
             git reset --hard origin/main
 
             sudo cp index.html /var/www/html/index.html
             sudo systemctl restart httpd
 
-            echo "✅ Deploy terminado"
+            echo "✅ Deploy terminado"git add .
